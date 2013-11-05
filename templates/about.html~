@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+  
+{% block content %}
+  <body background="1.jpg">	
+  <h2>About</h2>
+  <p><center>This is an About page for the Blog App</center></p>
+{% endblock %}

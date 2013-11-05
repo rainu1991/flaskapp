@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<u><font size=5 color=orange>Recent posts</font></u>
+  <ul class=sale>
+  {% for entry in posts %}
+    <font size=3 color=orange>{{ entry.id }}</font></br>	
+    <font size=5 color=red>{{ entry.title }}</font></br>
+    {{ entry.time}}</br>	
+    <font size=2 color=green>Post:</font>{{ entry.text}}</br>
+    <font size=2 color=green>comment:</font>{{entry.comment}}
+   <dl> 		
+------------------------------
+  {% endfor %}
+  </ul>
+{% endblock %} 

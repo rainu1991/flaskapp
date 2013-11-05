@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h2>Welcome! You are now logged in.</h2>
+
+
+  <h3><a href='/post'>Click here to Post</a><h3>
+
+
+
+
+
+
+
+  <a href="/logout">Logout</a>
+  <br/>
+  <br/>
+  <br/>
+  
+
+
+
+
+
+{% endblock %}
